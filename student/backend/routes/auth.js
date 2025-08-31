@@ -61,7 +61,7 @@ router.get('/google/callback',
     );
     
   
-    res.redirect(`https://js-tiger.vercel.app/dashboard`);
+    res.redirect(`https://js-tiger.vercel.app/auth/success?token=${token}`);
   }
 );
 
