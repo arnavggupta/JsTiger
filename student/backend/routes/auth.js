@@ -59,7 +59,7 @@ router.get('/google/callback',
     );
     
   
-    res.redirect(`http://localhost:5173/auth/success?token=${token}`);
+    res.redirect(`https://js-tiger.vercel.app/auth/success?token=${token}`);
   }
 );
 

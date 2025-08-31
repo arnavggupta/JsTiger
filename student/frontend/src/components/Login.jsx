@@ -2,7 +2,7 @@ import React from 'react';
 
 const Login = () => {
   const handleGoogleLogin = () => {
-    window.location.href = 'http://localhost:5000/api/auth/google';
+    window.location.href = 'https://js-tiger-8auj.vercel.app/api/auth/google';
   };
 
   return (
